@@ -1,0 +1,31 @@
+public class room {
+    public int floor;
+    public int number;
+    public String bedtype;
+}
+The following class is for the hotel information
+
+public class hetelInformation {
+    public String name;
+    public String address;
+    public String phone;
+    public List <room>rooms;
+}
+The following class is for the reservation class and includes the hotel information class within it because it the reservation has the hotel information in it.
+
+public class reservation {
+    public Date checkInDate;
+    public Date checkOutDate;
+    public String reservationName;
+    public int adultGuests;
+    public int minorGuests;
+    public hetelInformation hetelInformation;
+    public String cancellationPolicy;
+    public int customerId;
+    public int confimationNo;
+    public Date completed;
+    public String paymentStatus;
+    public String platform
+}
+
+I used int for the number i
