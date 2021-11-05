@@ -1,0 +1,14 @@
+Part two creating the web services. In the web services you have to make the XML document work. I used the reservation class for this assignment and used the ones inside to create the web service.
+
+<reservation>
+    <reservation confirmationNo= "101">
+        <customerNo>"123"</customerNo>
+        <reservationName>xyz</reservationName>
+            <Date>
+                <checkInDate>00-00-0000<checkInDate>
+                <checkOutDate>00-00-0000<checkOutDate>
+            </Date>
+        <paymentStatus>10000</paymentStatus>
+        <platform>cyz</platform>
+    </reservation confirmationNo>
+</reservation>
