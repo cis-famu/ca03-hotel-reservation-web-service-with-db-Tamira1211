@@ -1,0 +1,36 @@
+Part three adding a new reservation to the web service to the previous one.
+```
+<reservation>
+    <reservation confirmationNo= "101">
+        <customerNo>"123"</customerNo>
+        <reservationName>xyz</reservationName>
+            <Date>
+                <checkInDate>00-00-0000<checkInDate>
+                <checkOutDate>00-00-0000<checkOutDate>
+            </Date>
+        <paymentStatus>10000</paymentStatus>
+        <platform>cyz</platform>
+    </reservation confirmationNo>
+    <Newreservation>
+        <Newreservation custID="45342321" confNo="22342678" completed="2021-12-25T010:29" paymentStatus="PAID with Card" platform="Booking"> 
+            <NewreseName>Jane Doe</NewreseName>
+        <NewatGu>6</NewatGu>
+        <NewmrGu>3</NewmrGu>
+        <NewhotelInfo>
+            <NewHotelname>Hard Rock Hotel Miami</NewHotelname>
+            <Newadd>401 Biscayne Blvd, Miami, FL 33132</Newadd>
+            <Newphone>305-377-3110</Newphone>
+            <rooms>
+                <room>
+                    <floor>6</floor>
+                    <roomnum>622</rooomnum>
+                    <beds>4 king</beds>
+                </room>
+                <room>
+                    <floor>6</floor>
+                    <roomnum>623</roomnum>
+                    <beds>2 Queen</beds>
+                </room>
+            </rooms>
+        </NewhotelInfo>
+</reservation>
